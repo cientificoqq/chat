@@ -2,12 +2,16 @@ import Chat from "./Chat";
 import Login from "./Login";
 import { CHAT_ROUTE, LOGIN_ROUTE } from "./util/const";
 
-export const publicRoutes = [{
+export const publicRoutes = [
+  {
     path: LOGIN_ROUTE,
-    Component: Login, // Назва з великої літери — для JSX
-}, ];
+    Component: Login,
+  },
+];
 
-export const privateRoutes = [{
+export const privateRoutes = [
+  {
     path: CHAT_ROUTE,
     Component: Chat,
-}, ];
+  },
+];

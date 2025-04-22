@@ -18,7 +18,7 @@ const AppRouter = () => {
       {routesToRender.map(({ path, Component }) => (
         <Route key={path} path={path} element={<Component />} />
       ))}
-      {/* заміна Redirect to={CHAT_ROUTE} */}
+
       <Route path="*" element={<Navigate to={CHAT_ROUTE} replace />} />
     </Routes>
   );

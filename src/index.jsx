@@ -2,12 +2,10 @@ import React, { createContext } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
-// ✅ Используем compat-версию Firebase (v8 стиль)
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
-// ✅ Инициализация через compat
 firebase.initializeApp({
   apiKey: "AIzaSyDbnsOOXy6aGPqzCeCCitJz223THU6TAnY",
   authDomain: "chat1-eb784.firebaseapp.com",
@@ -20,7 +18,6 @@ firebase.initializeApp({
 
 export const Context = createContext(null);
 
-// ✅ Экспортируем auth и firestore через compat
 const auth = firebase.auth();
 const firestore = firebase.firestore();
 
