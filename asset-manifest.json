@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cientificoqq/chat/static/css/main.c7ec3132.css",
+    "main.js": "/cientificoqq/chat/static/js/main.d37be98a.js",
+    "index.html": "/cientificoqq/chat/index.html",
+    "main.c7ec3132.css.map": "/cientificoqq/chat/static/css/main.c7ec3132.css.map",
+    "main.d37be98a.js.map": "/cientificoqq/chat/static/js/main.d37be98a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ec3132.css",
+    "static/js/main.d37be98a.js"
+  ]
+}
